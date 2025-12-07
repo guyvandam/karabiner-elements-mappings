@@ -1,0 +1,31 @@
+{
+    "description": "option + (shift) + backspace → forward delete word or line",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "delete_or_backspace",
+                "modifiers": { "mandatory": ["shift", "option"] }
+            },
+            "to": [
+                {
+                    "key_code": "delete_forward",
+                    "modifiers": ["option", "fn"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "delete_or_backspace",
+                "modifiers": { "mandatory": ["shift", "command"] }
+            },
+            "to": [
+                {
+                    "key_code": "k",
+                    "modifiers": ["control"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}

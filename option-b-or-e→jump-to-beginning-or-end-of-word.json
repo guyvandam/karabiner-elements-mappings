@@ -1,0 +1,37 @@
+{
+    "description": "option + b/e → jump to beginning / end of word",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "b",
+                "modifiers": {
+                    "mandatory": ["right_option"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": ["option"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "e",
+                "modifiers": {
+                    "mandatory": ["right_option"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "f",
+                    "modifiers": ["control", "option"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}

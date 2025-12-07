@@ -1,0 +1,31 @@
+{
+    "description": "option + command + arrow keys → move between desktops",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "l",
+                "modifiers": { "mandatory": ["option", "command"] }
+            },
+            "to": [
+                {
+                    "key_code": "right_arrow",
+                    "modifiers": ["control"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "h",
+                "modifiers": { "mandatory": ["option", "command"] }
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": ["control"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
