@@ -2,6 +2,12 @@
 
 key remappings for [Karabiner Elements](https://karabiner-elements.pqrs.org/).
 
+>[!important] why is this even needed
+> 1. ideally don't want to move out of the *home row* when typing
+> 2. save clicks for navigation
+> 3. **most noticble** - once you start using it, you can't come back...
+
+
 # 🚀 "installation" 
 
 1. *general Karabiner elements setup (install, give permissions, etc..)*
