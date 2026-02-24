@@ -1,19 +1,19 @@
-# Karabiner-Elements Mappings ⌨️
+# Karabiner-Elements mappings ⌨️
 
-Custom key remappings for [Karabiner Elements](https://karabiner-elements.pqrs.org/).
+key remappings for [Karabiner Elements](https://karabiner-elements.pqrs.org/).
 
-# 🚀 "Installation" 
+# 🚀 "installation" 
 
 1. *general Karabiner elements setup (install, give permissions, etc..)*
 2. press *`add your own rule`*
 ![image](images/adding-modification.png)
-3. copy & paste add the desired modification(s)
+3. copy & paste the desired modification(s)
 
-# 🔗 Mappings
+# 🔗 mappings
 
-## Navigation
+## navigation
 
-| Shortcut | Action | Vi-style | macOS-style |
+| shortcut | action | vi-style | macOS-native |
 |---|---|:---:|:---:|
 | `⌥⌘ ←/→/↑/↓` | Move between desktops | | ✅ |
 | `⌥ h/j/k/l` | Arrow keys (left/down/up/right) | ✅ | |
@@ -22,18 +22,18 @@ Custom key remappings for [Karabiner Elements](https://karabiner-elements.pqrs.o
 | `⌥ u` | Jump to start of line | | |
 | `⌥ i` | Jump to end of line | | |
 
-## Editing
+## editing
 
-| Shortcut | Action | Vi-style | macOS-style |
+| shortcut | action | vi-style | macOS-native |
 |---|---|:---:|:---:|
 | `⌥ ⌫` | Forward delete word | | ✅ |
 | `⌥ ⇧ ⌫` | Forward delete to end of line | | ✅ |
 
 ---
 
-# Modification files
+# modification files
 
-| File | Description |
+| file | description |
 |---|---|
 | [`modifications/option-command-arrow→move-desktops.json`](./modifications/option-command-arrow→move-desktops.json) | Move between desktops with `⌥⌘` + arrow keys (or `hjkl`) |
 | [`modifications/vi-option+hjkl→arrow-keys.json`](./modifications/vi-option+hjkl→arrow-keys.json) | `⌥hjkl` as arrow keys |
