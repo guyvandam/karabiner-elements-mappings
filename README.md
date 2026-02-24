@@ -2,10 +2,11 @@
 
 key remappings for [Karabiner Elements](https://karabiner-elements.pqrs.org/).
 
->[!important] why is this even needed
-> 1. ideally don't want to move out of the *home row* when typing
-> 2. save clicks for navigation
-> 3. **most noticble** - once you start using it, you can't come back...
+> [!TIP]
+> *"why is this even needed?"*
+> 1. [hjkl mapping](./modifications/vi-option+hjkl→arrow-keys.json) (**most important one**) - you ideally don't want to move out of the *home row* when typing.
+> 2. save clicks for navigation (notice how many times you need to click to get to a word want to edit)
+> 3. **most noticble** - once you start using it, you can't come back!
 
 
 # 🚀 "installation" 
