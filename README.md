@@ -47,3 +47,11 @@ key remappings for [Karabiner Elements](https://karabiner-elements.pqrs.org/).
 | [`modifications/option-backspace→forward-delete.json`](./modifications/option-backspace→forward-delete.json) | `⌥⌫` forward-deletes a word; `⌥⇧⌫` deletes to end of line |
 | [`modifications/vi-option-b-e→word-start-end.json`](./modifications/vi-option-b-e→word-start-end.json) | `⌥b` / `⌥e` jump to start / end of word |
 | [`modifications/option-u-i→line-start-end.json`](./modifications/option-u-i→line-start-end.json) | `⌥u` / `⌥i` jump to start / end of line |
+
+
+
+---
+# other keyboard useful keyboard shortcuts
+1. command shift N - new folder in finder
+2. command option shift N - new file in finder (will add soon)
+3. command shift G - go to location in finder (e.g. for you get a path from ai chat)
